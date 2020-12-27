@@ -20,3 +20,9 @@ print("indexacion del ultimo caracter:", cadena[-1])
 
 cadena="Argentina"
 print("Acceder a una parte de la cadena", cadena[2:5])
+
+cadena="Argentina"
+print("Acceder a una parte de la cadena", cadena[:5])
+
+cadena="Argentina"
+print("Acceder a una parte de la cadena", cadena[2:])

@@ -26,3 +26,6 @@ print("Acceder a una parte de la cadena", cadena[:5])
 
 cadena="Argentina"
 print("Acceder a una parte de la cadena", cadena[2:])
+
+subcad = cadena[:5]
+print(subcad)

@@ -20,8 +20,24 @@ print(result)
 
 cadena = "12312"
 result = cadena.isnumeric()
-print(result)
+print("es cadena numerica:", result)
 
-cadena = "HELLO WORLD"
+cadena = "HELLO WorLD"
 result = cadena.lower()
-print(result)
+print("pasa a minuscula", result)
+
+cadena = "hello world"
+result = cadena.replace("hello", "bye")
+print("reemplaza", result)
+
+cadena = "    hello world     "
+result = cadena.strip()
+print("limpia espacio:", result)
+
+cadena = "HELLO WorLD"
+result = cadena.upper()
+print("pasa a mayuscula:", result)
+
+cadena = "HELLO WorLD"
+result = cadena.zfill(20)
+print("llena con 0 hasta 20:", result)
